@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Defensive: this MCP reuses tokens stored elsewhere (~/Developer/hybrid-conversions/),
+# but ignore any local-machine OAuth artifacts in case future setup drops them here.
+client_secrets.json
+token.json
+*.token.json
