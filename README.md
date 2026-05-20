@@ -1,5 +1,13 @@
 # gtm-mcp
 
+> **Cloning to a new machine?** Pass the short folder name as the explicit `git clone` target so the local path matches the convention used everywhere else (`~/Developer/CLAUDE.md`, MCP registration, scripts):
+>
+> ```bash
+> git clone git@github.com:K9Cloud/gtm-mcp.git ~/Developer/gtm
+> ```
+>
+> Without the trailing `~/Developer/gtm`, git defaults to creating `~/Developer/gtm-mcp/`, which drifts from the rest of the setup.
+
 A local Claude Code MCP server for **Google Tag Manager** — list/inspect tags, triggers, variables, and workspaces; create/update/pause/delete; create + publish container versions. Built to replace the one-off Python scripts that have been used historically (`cleanup_legacy_awct_gtm.py`, `add_clarity_to_gtm.py`, `fix_clarity_tag_ids.py`, etc.) for ad-hoc GTM work.
 
 ## Tools (19)
