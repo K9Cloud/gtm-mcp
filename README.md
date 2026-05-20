@@ -118,3 +118,26 @@ No `auth.py` here — the OAuth flow lives in `hybrid-conversions/auth_hybrid_gt
 - **All write tools default to `dry_run=True`**. Set `dry_run=False` to apply.
 - **Mutations stay in the workspace** until you call `create_version_and_publish`.
 - **`update_tag` patch is a top-level overwrite, not a deep merge** — for fields like `parameter` (a list), fetch via `get_tag` first and supply the full replacement.
+
+## Usage notes & gotchas
+
+- **Per-minute rate limit (~60 queries/min/user)** — iterating all 63 accounts to find a container can hit `429 rateLimitExceeded`. **Use steady 1.5s pacing between calls — NOT exponential backoff.** Exponential backoff doubles wait times after each failure, fighting itself when the per-minute window resets every 60s. Steady 1.5s/call ≈ 40 calls/min, well under the limit; a full account scan finishes in ~96s reliably. (Learned 2026-05-04 olk9twincities session, when the count was 64.)
+- **Container cache file** — `~/Developer/hybrid-conversions/gtm_container_cache.json` maps `{public_id: container_path}` for ~170 containers, populated during the 2026-05-04 paced scan. Use it to skip the account-scan entirely on future container lookups: `cache = json.load(open(CACHE)); container_path = cache[target_id]`. Re-run the scan to refresh after new containers are created.
+- **Workspaces auto-recycle after publish** — the workspace ID returned by `find_container` (`default_workspace_path`) **changes after each `create_version_and_publish`** (e.g. workspace `6` becomes `7` after publish; the old workspace returns 404 on subsequent reads). Always re-fetch the workspace path at the start of each mutation session — never cache the workspace path across sessions.
+- **Trigger names cannot contain colons** (`:`). API rejects with `400: name: The name contains invalid character: ":"`. Use parentheses instead — e.g. `"Click - Phone (tel)"` not `"Click - tel:"`.
+- **Tools may lazy-load via ToolSearch** — the initial deferred-tool list in a session may show only ~13 of the 19 tools; the rest (`create_tag`, `create_trigger`, `update_tag`, `create_workspace`, `delete_workspace`, `list_workspaces`) appear after a ToolSearch query. Before reaching for direct Python on a missing-looking capability, run `ToolSearch select:mcp__gtm__<tool_name>` first.
+- **GA4 Event tag body structure** (`gaawe` type) — useful when creating tags via `create_tag` or direct API:
+  ```python
+  body = {
+      "name": "GA4 Event - generate_lead", "type": "gaawe",
+      "parameter": [
+          {"type": "template", "key": "measurementIdOverride", "value": "G-XXXXXXXXXX"},
+          {"type": "template", "key": "eventName", "value": "generate_lead"},
+          {"type": "boolean", "key": "sendEcommerceData", "value": "false"},
+      ],
+      "firingTriggerId": ["6"],  # existing trigger by ID
+      "tagFiringOption": "oncePerEvent",
+  }
+  ```
+  Tel-click trigger: `type=linkClick`, filter `startsWith` on `{{Click URL}}` value `tel:`. Requires the `clickUrl` built-in variable enabled in the workspace.
+- **Historical motivation** — replaces one-off scripts like `cleanup_legacy_awct_gtm.py`. The motivating use case was the post-2026-06-01 cleanup of legacy `__awct` form tags + dead `__awec` variables / `wpformsData` macros across all containers.
