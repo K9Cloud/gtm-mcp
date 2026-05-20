@@ -76,7 +76,7 @@ The same token is used by the legacy Python scripts in `~/Developer/hybrid-conve
 
 ```bash
 # 1. Clone
-cd ~/Developer && git clone git@github.com:scottmckellam/gtm-mcp.git gtm
+cd ~/Developer && git clone git@github.com:K9Cloud/gtm-mcp.git gtm
 
 # 2. venv + deps
 cd gtm
