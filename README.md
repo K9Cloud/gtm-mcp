@@ -10,6 +10,8 @@
 
 A local Claude Code MCP server for **Google Tag Manager** — list/inspect tags, triggers, variables, and workspaces; create/update/pause/delete; create + publish container versions. Built to replace the one-off Python scripts that have been used historically (`cleanup_legacy_awct_gtm.py`, `add_clarity_to_gtm.py`, `fix_clarity_tag_ids.py`, etc.) for ad-hoc GTM work.
 
+> ⚠️ **Deploying a Microsoft Clarity tag through GTM? Read `~/Developer/clarity/CLAUDE.md` Gotchas first.** The Clarity JWT `sub` claim is the API project UID, **NOT** the tag ID that goes in `clarity.ms/tag/{id}` — using it silently breaks tracking (HTTP 204, no error; broke 6 containers 2026-04-20). Verify any tag ID with `curl -sI https://www.clarity.ms/tag/{id}` → 200 + non-empty body.
+
 ## Tools (19)
 
 ### Discovery
