@@ -1,0 +1,1406 @@
+{
+ "exported": "2026-09-09T11:07:58.965927",
+ "tags": [
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/13",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "13",
+   "name": "Google Ads Conversion Tracking",
+   "type": "awct",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableNewCustomerReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableConversionLinker",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableProductReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableShippingData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "5khhCI2tteIaEPWmpKVA"
+    },
+    {
+     "type": "boolean",
+     "key": "rdp",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1788219426996",
+   "firingTriggerId": [
+    "14"
+   ],
+   "setupTag": [
+    {
+     "tagName": "Enhanced Conversions"
+    }
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/13?apiLink=tag",
+   "paused": true,
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/32",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "32",
+   "name": "Microsoft Clarity - Columbia tag was installing on ALL sites - wrong",
+   "type": "cvt_MQDKZ",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "projectId",
+     "value": "uda0ot9ztm"
+    }
+   ],
+   "fingerprint": "1776712373505",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/32?apiLink=tag",
+   "paused": true,
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/33",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "33",
+   "name": "Columbia Calls from Landing Page (803) 610-4122",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(803) 610-4122"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "xYcvCJSrouEaEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1764696059052",
+   "firingTriggerId": [
+    "41"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/33?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/34",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "34",
+   "name": "Greenville Calls from Landing Page (864) 729-3647",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(864) 729-3647"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "I6XkCJOcicgbEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1764696116586",
+   "firingTriggerId": [
+    "42"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/34?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/35",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "35",
+   "name": "Tampa Calls from Landing Page (813) 461-6210",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(813) 461-6210"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "pakQCNjvgOQaEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1764696005580",
+   "firingTriggerId": [
+    "40"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/35?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/36",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "36",
+   "name": "Sarasota - Calls from Landing Page (813) 461-6210",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(813) 461-6210"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "RMDgCKGo24EbEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1764695916849",
+   "firingTriggerId": [
+    "39"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/36?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/37",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "37",
+   "name": "Lexington Calls from Landing Page (859) 317-2601",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(859) 317-2601"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "JTXhCJibi4MbEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1764695792915",
+   "firingTriggerId": [
+    "38"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/37?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/29",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "29",
+   "name": "Google Ads Conversion Tracking \u2013 Click to Text (Unified)",
+   "type": "awct",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableNewCustomerReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableConversionLinker",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableProductReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableShippingData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "ADq_CIvv9scbEPWmpKVA"
+    },
+    {
+     "type": "boolean",
+     "key": "rdp",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1764268566174",
+   "firingTriggerId": [
+    "28"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/29?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/30",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "30",
+   "name": "GA4 Event \u2013 sms_click (Unified)",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "Valuelocation_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Location Name}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "hostname"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Page Hostname}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "conversion_type\u201dsms_click\u201dphone_number"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Click URL}}"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "sms_click"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 Measurement ID by Hostname}}"
+    }
+   ],
+   "fingerprint": "1764268790457",
+   "firingTriggerId": [
+    "28"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/30?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/25",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "25",
+   "name": "Enhanced Conversions",
+   "type": "awud",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "userDataVariable",
+     "value": "{{UPD - WPForms Manual Map Data}}"
+    },
+    {
+     "type": "boolean",
+     "key": "enableConversionLinker",
+     "value": "true"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    }
+   ],
+   "fingerprint": "1763788332983",
+   "firingTriggerId": [
+    "14"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/25?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/19",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "19",
+   "name": "WPForms Event Listener & Bridge",
+   "type": "html",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "html",
+     "value": "<script>\n  window.dataLayer = window.dataLayer || [];\n\n  jQuery(function($) {\n    $(document).on('wpformsAjaxSubmitSuccess', function(event, formData, formElement) {\n      try {\n        var formId = null;\n        var email = '';\n        var phone = '';\n        var fname = '';\n        var lname = '';\n\n        // formId (unchanged from before)\n        if (formData && formData.form_id) {\n          formId = formData.form_id;\n        } else if (formElement) {\n          formId = $(formElement).find('input[name=\"wpforms[id]\"]').val() || null;\n        }\n\n        // --- Extract fields from WPForms payload ---\n        // WPForms sends fields under formData.data.fields\n        var fields = (formData && formData.data && formData.data.fields) ? formData.data.fields : {};\n\n        for (var key in fields) {\n          if (!fields.hasOwnProperty(key)) continue;\n          var field = fields[key];\n          if (!field || !field.value) continue;\n\n          var label = (field.label || '').toLowerCase();\n\n          if (!email && label.indexOf('email') !== -1) {\n            email = field.value;\n          }\n          if (!phone && label.indexOf('phone') !== -1) {\n            phone = field.value;\n          }\n          if (!fname && (label.indexOf('first') !== -1 || label.indexOf('first name') !== -1)) {\n            fname = field.value;\n          }\n          if (!lname && (label.indexOf('last') !== -1 || label.indexOf('last name') !== -1)) {\n            lname = field.value;\n          }\n        }\n\n        window.dataLayer.push({\n          event: 'wpforms_form_submit',\n          wpforms_form_id: formId,\n          ec_email: email,\n          ec_phone: phone,\n          ec_fname: fname,\n          ec_lname: lname\n        });\n      } catch (e) {\n        // Fail silently so forms never break\n        console && console.warn && console.warn('WPForms EC error:', e);\n      }\n    });\n  });\n</script>  "
+    },
+    {
+     "type": "boolean",
+     "key": "supportDocumentWrite",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1763787137765",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/19?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/3",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "3",
+   "name": "Conversion Linker",
+   "type": "gclidw",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableCrossDomain",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableUrlPassthrough",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableCookieOverrides",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1763768082876",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/3?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/5",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "5",
+   "name": "Google Ads AW-17258058613",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "AW-17258058613"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "location_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Location Name}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "hostname"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Page Hostname}}"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "list",
+     "key": "configSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "measurement_id"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{GA4 Measurement ID by Hostname}}"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1763768872742",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/5?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/15",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "15",
+   "name": "Google Analytics GA4 Event (form_submission)",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "location_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Location Name}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "hostname"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Page Hostname}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "conversion_type"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "\"form_submission\""
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "form_submission"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 Measurement ID by Hostname}}"
+    }
+   ],
+   "fingerprint": "1763770067771",
+   "firingTriggerId": [
+    "14"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/15?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/tags/18",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "tagId": "18",
+   "name": "Google Analytics GA4 Event for phone clicks",
+   "type": "gaawe",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "sendEcommerceData",
+     "value": "false"
+    },
+    {
+     "type": "list",
+     "key": "eventSettingsTable",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "location_name"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Location Name}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "hostname"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Page Hostname}}"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "conversion_type"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "\"phone_click\""
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "parameter",
+         "value": "phone_number"
+        },
+        {
+         "type": "template",
+         "key": "parameterValue",
+         "value": "{{Click URL}}"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "type": "template",
+     "key": "eventName",
+     "value": "phone_click"
+    },
+    {
+     "type": "template",
+     "key": "measurementIdOverride",
+     "value": "{{GA4 Measurement ID by Hostname}}"
+    }
+   ],
+   "fingerprint": "1763775892491",
+   "firingTriggerId": [
+    "17"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/tags/18?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  }
+ ],
+ "triggers": [
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/38",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "38",
+   "name": "Lexington Page Views",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Hostname}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "dogtrainerlexingtonky.com"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1764695757841",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/38?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/39",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "39",
+   "name": "Sarasota Page Views",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Hostname}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "dogtrainersarasotafl.com"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1764695941921",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/39?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/40",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "40",
+   "name": "Tampa Page Views",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Hostname}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "tampadogtrainers.com"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1764695999581",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/40?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/41",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "41",
+   "name": "Columbia Page Views",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Hostname}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "columbiascdogtraining.com"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1764696056149",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/41?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/42",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "42",
+   "name": "Greenville Page Views",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Hostname}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "dogtraininggreenville.com"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1764696114312",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/42?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/28",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "28",
+   "name": "Phone Click (Text) \u2013 Unified",
+   "type": "linkClick",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Click URL}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "sms:"
+      }
+     ]
+    }
+   ],
+   "waitForTags": {
+    "type": "boolean",
+    "value": "false"
+   },
+   "checkValidation": {
+    "type": "boolean",
+    "value": "false"
+   },
+   "waitForTagsTimeout": {
+    "type": "template",
+    "value": "2000"
+   },
+   "uniqueTriggerId": {
+    "type": "template"
+   },
+   "fingerprint": "1764268449908",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/28?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/14",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "14",
+   "name": "WPForms \u2013 Form Submit (Unified)",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "equals",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "wpforms_form_submit"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1763769882070",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/14?apiLink=trigger"
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/triggers/17",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "triggerId": "17",
+   "name": "Phone Click (Unified)",
+   "type": "linkClick",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Click URL}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "tel:"
+      }
+     ]
+    }
+   ],
+   "waitForTags": {
+    "type": "boolean",
+    "value": "false"
+   },
+   "checkValidation": {
+    "type": "boolean",
+    "value": "false"
+   },
+   "waitForTagsTimeout": {
+    "type": "template",
+    "value": "2000"
+   },
+   "uniqueTriggerId": {
+    "type": "template"
+   },
+   "fingerprint": "1763777453247",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/triggers/17?apiLink=trigger"
+  }
+ ],
+ "variables": [
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/variables/24",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "variableId": "24",
+   "name": "UPD - WPForms Manual Map Data",
+   "type": "awec",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "mode",
+     "value": "MANUAL"
+    },
+    {
+     "type": "template",
+     "key": "phone_number",
+     "value": "{{Custom JavaScript - Form Phone}}"
+    },
+    {
+     "type": "template",
+     "key": "email",
+     "value": "{{Custom JavaScript - Form Email}}"
+    }
+   ],
+   "fingerprint": "1763790063067",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/variables/24?apiLink=variable",
+   "formatValue": {}
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/variables/26",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "variableId": "26",
+   "name": "Custom JavaScript - Form Email",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function() {\n  // Try to find the most recently used WPForms form\n  var forms = document.querySelectorAll('form.wpforms-form');\n  if (!forms || !forms.length) return;\n\n  // Work backwards (last form on page is often the main LP form)\n  for (var i = forms.length - 1; i >= 0; i--) {\n    var form = forms[i];\n    if (!form) continue;\n\n    var emailField = form.querySelector(\n      'input[type=\"email\"], input[name*=\"email\"], input[name*=\"Email\"]'\n    );\n    if (emailField && emailField.value) {\n      return emailField.value;\n    }\n  }\n\n  return;\n}"
+    }
+   ],
+   "fingerprint": "1763789778588",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/variables/26?apiLink=variable",
+   "formatValue": {}
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/variables/27",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "variableId": "27",
+   "name": "Custom JavaScript - Form Phone",
+   "type": "jsm",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "javascript",
+     "value": "function() {\n  var forms = document.querySelectorAll('form.wpforms-form');\n  if (!forms || !forms.length) return;\n\n  for (var i = forms.length - 1; i >= 0; i--) {\n    var form = forms[i];\n    if (!form) continue;\n\n    var phoneField = form.querySelector(\n      'input[type=\"tel\"], input[name*=\"phone\"], input[name*=\"Phone\"], input[name*=\"tel\"], input[name*=\"Tel\"]'\n    );\n    if (phoneField && phoneField.value) {\n      return phoneField.value;\n    }\n  }\n\n  return;\n}"
+    }
+   ],
+   "fingerprint": "1763789811897",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/variables/27?apiLink=variable",
+   "formatValue": {}
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/variables/10",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "variableId": "10",
+   "name": "GA4 Measurement ID by Hostname",
+   "type": "smm",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "input",
+     "value": "{{Page Hostname}}"
+    },
+    {
+     "type": "list",
+     "key": "map",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtraininggreenville.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "G-S33V480B75"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "columbiascdogtraining.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "G-H7T4DWT77X"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "tampadogtrainers.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "G-8KCXXFZTS1"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtrainersarasotafl.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "G-NZRVSC1CKN"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtrainerlexingtonky.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "G-5R5HMK00EQ"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtrainerlouisvilleky.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "G-7S543VG9VB"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1763766591193",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/variables/10?apiLink=variable",
+   "formatValue": {}
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/variables/11",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "variableId": "11",
+   "name": "Location Name",
+   "type": "smm",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "setDefaultValue",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "input",
+     "value": "{{Page Hostname}}"
+    },
+    {
+     "type": "list",
+     "key": "map",
+     "list": [
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtraininggreenville.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "Greenville"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "columbiascdogtraining.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "Columbia"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "tampadogtrainers.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "Tampa"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtrainersarasotafl.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "Sarasota"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtrainerlexingtonky.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "Lexington"
+        }
+       ]
+      },
+      {
+       "type": "map",
+       "map": [
+        {
+         "type": "template",
+         "key": "key",
+         "value": "dogtrainerlouisvilleky.com"
+        },
+        {
+         "type": "template",
+         "key": "value",
+         "value": "Louisville"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1763766734517",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/variables/11?apiLink=variable",
+   "formatValue": {}
+  },
+  {
+   "path": "accounts/6300833419/containers/223334563/workspaces/18/variables/12",
+   "accountId": "6300833419",
+   "containerId": "223334563",
+   "workspaceId": "18",
+   "variableId": "12",
+   "name": "AW Conversion ID",
+   "type": "c",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "value",
+     "value": "17258058613"
+    }
+   ],
+   "fingerprint": "1763766758892",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223334563/workspaces/18/variables/12?apiLink=variable",
+   "formatValue": {}
+  }
+ ]
+}
