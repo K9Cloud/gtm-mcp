@@ -1,0 +1,103 @@
+{
+ "container": {
+  "path": "accounts/6300833419/containers/226851429",
+  "accountId": "6300833419",
+  "containerId": "226851429",
+  "name": "OLK9 - Louisville, KY_OLD",
+  "publicId": "GTM-KZ4M5MFK",
+  "usageContext": [
+   "web"
+  ],
+  "fingerprint": "1764267027407",
+  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851429/workspaces?apiLink=container",
+  "features": {
+   "supportUserPermissions": true,
+   "supportEnvironments": true,
+   "supportWorkspaces": true,
+   "supportGtagConfigs": false,
+   "supportBuiltInVariables": true,
+   "supportClients": false,
+   "supportFolders": true,
+   "supportTags": true,
+   "supportTemplates": true,
+   "supportTriggers": true,
+   "supportVariables": true,
+   "supportVersions": true,
+   "supportZones": true,
+   "supportTransformations": false
+  },
+  "tagIds": [
+   "GTM-KZ4M5MFK"
+  ]
+ },
+ "tags": [
+  {
+   "path": "accounts/6300833419/containers/226851429/workspaces/3/tags/3",
+   "accountId": "6300833419",
+   "containerId": "226851429",
+   "workspaceId": "3",
+   "tagId": "3",
+   "name": "Conversion Linker",
+   "type": "gclidw",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableCrossDomain",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableUrlPassthrough",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableCookieOverrides",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1754602898092",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851429/workspaces/3/tags/3?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/226851429/workspaces/3/tags/4",
+   "accountId": "6300833419",
+   "containerId": "226851429",
+   "workspaceId": "3",
+   "tagId": "4",
+   "name": "Google Analytics - GA4 Tag",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "G-K23YC6SXG4"
+    }
+   ],
+   "fingerprint": "1754602928824",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851429/workspaces/3/tags/4?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  }
+ ],
+ "triggers": [],
+ "variables": []
+}

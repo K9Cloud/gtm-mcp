@@ -1,0 +1,256 @@
+{
+ "container": {
+  "path": "accounts/6300833419/containers/226851937",
+  "accountId": "6300833419",
+  "containerId": "226851937",
+  "name": "OLK9 - Lexington, KY_OLD",
+  "publicId": "GTM-MWB47W5L",
+  "usageContext": [
+   "web"
+  ],
+  "fingerprint": "1764267018130",
+  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces?apiLink=container",
+  "features": {
+   "supportUserPermissions": true,
+   "supportEnvironments": true,
+   "supportWorkspaces": true,
+   "supportGtagConfigs": false,
+   "supportBuiltInVariables": true,
+   "supportClients": false,
+   "supportFolders": true,
+   "supportTags": true,
+   "supportTemplates": true,
+   "supportTriggers": true,
+   "supportVariables": true,
+   "supportVersions": true,
+   "supportZones": true,
+   "supportTransformations": false
+  },
+  "tagIds": [
+   "GTM-MWB47W5L"
+  ]
+ },
+ "tags": [
+  {
+   "path": "accounts/6300833419/containers/226851937/workspaces/5/tags/7",
+   "accountId": "6300833419",
+   "containerId": "226851937",
+   "workspaceId": "5",
+   "tagId": "7",
+   "name": "Google Analytics - GA4",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "G-SRB7H4XYC2"
+    }
+   ],
+   "fingerprint": "1754776143617",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces/5/tags/7?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/226851937/workspaces/5/tags/8",
+   "accountId": "6300833419",
+   "containerId": "226851937",
+   "workspaceId": "5",
+   "tagId": "8",
+   "name": "Google Ads - AW Google Tag",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "AW-17258058613"
+    }
+   ],
+   "fingerprint": "1754776480925",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces/5/tags/8?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/226851937/workspaces/5/tags/10",
+   "accountId": "6300833419",
+   "containerId": "226851937",
+   "workspaceId": "5",
+   "tagId": "10",
+   "name": "Google Ads Conversion Tracking",
+   "type": "awct",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableNewCustomerReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableConversionLinker",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableProductReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableShippingData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "PTUvCI2Hi4MbEPWmpKVA"
+    },
+    {
+     "type": "boolean",
+     "key": "rdp",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1754776538470",
+   "firingTriggerId": [
+    "9"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces/5/tags/10?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/226851937/workspaces/5/tags/11",
+   "accountId": "6300833419",
+   "containerId": "226851937",
+   "workspaceId": "5",
+   "tagId": "11",
+   "name": "Google Ads Calls from Website Conversion",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(859) 317-2601"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "JTXhCJibi4MbEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1754776662517",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces/5/tags/11?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/226851937/workspaces/5/tags/3",
+   "accountId": "6300833419",
+   "containerId": "226851937",
+   "workspaceId": "5",
+   "tagId": "3",
+   "name": "Conversion Linker",
+   "type": "gclidw",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableCrossDomain",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableUrlPassthrough",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableCookieOverrides",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1754602642679",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces/5/tags/3?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  }
+ ],
+ "triggers": [
+  {
+   "path": "accounts/6300833419/containers/226851937/workspaces/5/triggers/9",
+   "accountId": "6300833419",
+   "containerId": "226851937",
+   "workspaceId": "5",
+   "triggerId": "9",
+   "name": "Page View - Path contains thank-you",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "thank-you"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1754776533664",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/226851937/workspaces/5/triggers/9?apiLink=trigger"
+  }
+ ],
+ "variables": []
+}

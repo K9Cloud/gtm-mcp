@@ -1,0 +1,262 @@
+{
+ "container": {
+  "path": "accounts/6300833419/containers/223515829",
+  "accountId": "6300833419",
+  "containerId": "223515829",
+  "name": "OLK9 Tampa FL_OLD",
+  "publicId": "GTM-P5XL8WVG",
+  "usageContext": [
+   "web"
+  ],
+  "fingerprint": "1764267056074",
+  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces?apiLink=container",
+  "features": {
+   "supportUserPermissions": true,
+   "supportEnvironments": true,
+   "supportWorkspaces": true,
+   "supportGtagConfigs": false,
+   "supportBuiltInVariables": true,
+   "supportClients": false,
+   "supportFolders": true,
+   "supportTags": true,
+   "supportTemplates": true,
+   "supportTriggers": true,
+   "supportVariables": true,
+   "supportVersions": true,
+   "supportZones": true,
+   "supportTransformations": false
+  },
+  "tagIds": [
+   "GTM-P5XL8WVG"
+  ]
+ },
+ "tags": [
+  {
+   "path": "accounts/6300833419/containers/223515829/workspaces/7/tags/8",
+   "accountId": "6300833419",
+   "containerId": "223515829",
+   "workspaceId": "7",
+   "tagId": "8",
+   "name": "Google Ads Conversion Tracking",
+   "type": "awct",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableNewCustomerReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableConversionLinker",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableProductReporting",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionCookiePrefix",
+     "value": "_gcl"
+    },
+    {
+     "type": "boolean",
+     "key": "enableShippingData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "1LWdCL2EgeQaEPWmpKVA"
+    },
+    {
+     "type": "boolean",
+     "key": "rdp",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1788219694209",
+   "firingTriggerId": [
+    "7"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces/7/tags/8?apiLink=tag",
+   "paused": true,
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223515829/workspaces/7/tags/6",
+   "accountId": "6300833419",
+   "containerId": "223515829",
+   "workspaceId": "7",
+   "tagId": "6",
+   "name": "Google Ads Calls from Website Conversion",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(813) 461-6210"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "17258058613"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "pakQCNjvgOQaEPWmpKVA"
+    }
+   ],
+   "fingerprint": "1750998028837",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces/7/tags/6?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223515829/workspaces/7/tags/3",
+   "accountId": "6300833419",
+   "containerId": "223515829",
+   "workspaceId": "7",
+   "tagId": "3",
+   "name": "Conversion Linker",
+   "type": "gclidw",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableCrossDomain",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableUrlPassthrough",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableCookieOverrides",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1750997489980",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces/7/tags/3?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223515829/workspaces/7/tags/4",
+   "accountId": "6300833419",
+   "containerId": "223515829",
+   "workspaceId": "7",
+   "tagId": "4",
+   "name": "Google Analytics - GA4 - Google Tag",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "G-RECMSW3086"
+    }
+   ],
+   "fingerprint": "1750997513982",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces/7/tags/4?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "path": "accounts/6300833419/containers/223515829/workspaces/7/tags/5",
+   "accountId": "6300833419",
+   "containerId": "223515829",
+   "workspaceId": "7",
+   "tagId": "5",
+   "name": "Google Ads - AW Google Tag",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "AW-17258058613"
+    }
+   ],
+   "fingerprint": "1750997539720",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces/7/tags/5?apiLink=tag",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  }
+ ],
+ "triggers": [
+  {
+   "path": "accounts/6300833419/containers/223515829/workspaces/7/triggers/7",
+   "accountId": "6300833419",
+   "containerId": "223515829",
+   "workspaceId": "7",
+   "triggerId": "7",
+   "name": "Page View - Path Contains thank-you",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page Path}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "thank-you"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1750998245419",
+   "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6300833419/containers/223515829/workspaces/7/triggers/7?apiLink=trigger"
+  }
+ ],
+ "variables": []
+}
