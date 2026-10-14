@@ -1,0 +1,354 @@
+{
+ "path": "accounts/6263831447/containers/203344389/versions/5",
+ "accountId": "6263831447",
+ "containerId": "203344389",
+ "containerVersionId": "5",
+ "name": "Pause retired legacy form conversion tag",
+ "description": "Paused retired legacy form conversion tag(s). Target conversion action is REMOVED in Google Ads, so the tag counted nothing. Form conversions run through the hybrid pipeline (API Form Uploads). Completes the tag-side half of the 2026-04-28 legacy-form retirement, which silenced the conversion actions but left these tags live. Fleet sweep 2026-08-31.",
+ "container": {
+  "path": "accounts/6263831447/containers/203344389",
+  "accountId": "6263831447",
+  "containerId": "203344389",
+  "name": "charlotteoffleashdogtrainers.com",
+  "publicId": "GTM-TFJPKV79",
+  "usageContext": [
+   "web"
+  ],
+  "fingerprint": "1736153816808",
+  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6263831447/containers/203344389/workspaces?apiLink=container",
+  "features": {
+   "supportUserPermissions": true,
+   "supportEnvironments": true,
+   "supportWorkspaces": true,
+   "supportGtagConfigs": false,
+   "supportBuiltInVariables": true,
+   "supportClients": false,
+   "supportFolders": true,
+   "supportTags": true,
+   "supportTemplates": true,
+   "supportTriggers": true,
+   "supportVariables": true,
+   "supportVersions": true,
+   "supportZones": true,
+   "supportTransformations": false
+  },
+  "tagIds": [
+   "GTM-TFJPKV79"
+  ]
+ },
+ "tag": [
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "tagId": "3",
+   "name": "Conversion Linker",
+   "type": "gclidw",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableCrossDomain",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableUrlPassthrough",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableCookieOverrides",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1748466436602",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "tagId": "4",
+   "name": "Google Analytics - GA4 Google Tag",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "G-R1DLM2QSTY"
+    }
+   ],
+   "fingerprint": "1736154362469",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "tagId": "5",
+   "name": "Google Ads - AW Google Tag",
+   "type": "googtag",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "tagId",
+     "value": "AW-16546301913"
+    }
+   ],
+   "fingerprint": "1748466426381",
+   "firingTriggerId": [
+    "2147479573"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "tagId": "6",
+   "name": "Google Ads Calls from Website Conversion",
+   "type": "awcc",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "phoneConversionNumber",
+     "value": "(704) 266-1392"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "16546301913"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "ccEPCI315qoZENmP8tE9"
+    }
+   ],
+   "fingerprint": "1736154455956",
+   "firingTriggerId": [
+    "2147479553"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "tagId": "8",
+   "name": "Google Ads Conversion Tracking",
+   "type": "awct",
+   "parameter": [
+    {
+     "type": "boolean",
+     "key": "enableNewCustomerReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableConversionLinker",
+     "value": "true"
+    },
+    {
+     "type": "boolean",
+     "key": "enableProductReporting",
+     "value": "false"
+    },
+    {
+     "type": "boolean",
+     "key": "enableEnhancedConversion",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionCookiePrefix",
+     "value": "_gcl"
+    },
+    {
+     "type": "boolean",
+     "key": "enableShippingData",
+     "value": "false"
+    },
+    {
+     "type": "template",
+     "key": "conversionId",
+     "value": "16546301913"
+    },
+    {
+     "type": "template",
+     "key": "conversionLabel",
+     "value": "ycxZCK7R4qoZENmP8tE9"
+    },
+    {
+     "type": "boolean",
+     "key": "rdp",
+     "value": "false"
+    }
+   ],
+   "fingerprint": "1788219910635",
+   "firingTriggerId": [
+    "7"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "paused": true,
+   "monitoringMetadata": {
+    "type": "map"
+   },
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "tagId": "12",
+   "name": "Microsoft Clarity - Official",
+   "type": "cvt_MQDKZ",
+   "parameter": [
+    {
+     "type": "template",
+     "key": "projectId",
+     "value": "smnhr9usq2"
+    }
+   ],
+   "fingerprint": "1753886842883",
+   "firingTriggerId": [
+    "2147479553",
+    "11"
+   ],
+   "tagFiringOption": "oncePerEvent",
+   "consentSettings": {
+    "consentStatus": "notSet"
+   }
+  }
+ ],
+ "trigger": [
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "triggerId": "7",
+   "name": "Page View URL contains thank-you",
+   "type": "pageview",
+   "filter": [
+    {
+     "type": "contains",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{Page URL}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": "thank-you"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1736154525323"
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "triggerId": "11",
+   "name": "Clarity Custom Event",
+   "type": "customEvent",
+   "customEventFilter": [
+    {
+     "type": "matchRegex",
+     "parameter": [
+      {
+       "type": "template",
+       "key": "arg0",
+       "value": "{{_event}}"
+      },
+      {
+       "type": "template",
+       "key": "arg1",
+       "value": ".*"
+      }
+     ]
+    }
+   ],
+   "fingerprint": "1753886842216"
+  }
+ ],
+ "builtInVariable": [
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "type": "pageUrl",
+   "name": "Page URL"
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "type": "pageHostname",
+   "name": "Page Hostname"
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "type": "pagePath",
+   "name": "Page Path"
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "type": "referrer",
+   "name": "Referrer"
+  },
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "type": "event",
+   "name": "Event"
+  }
+ ],
+ "fingerprint": "1788219912624",
+ "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6263831447/containers/203344389/versions/5?apiLink=version",
+ "customTemplate": [
+  {
+   "accountId": "6263831447",
+   "containerId": "203344389",
+   "templateId": "10",
+   "name": "Microsoft Clarity - Official",
+   "fingerprint": "1753886842046",
+   "templateData": "___TERMS_OF_SERVICE___\n\nBy creating or modifying this file you agree to Google Tag Manager's Community\nTemplate Gallery Developer Terms of Service available at\nhttps://developers.google.com/tag-manager/gallery-tos (or such other URL as\nGoogle may provide), as modified from time to time.\n\n\n___INFO___\n\n{\n  \"type\": \"TAG\",\n  \"id\": \"cvt_MQDKZ\",\n  \"version\": 1,\n  \"displayName\": \"Microsoft Clarity - Official\",\n  \"categories\": [\n    \"ANALYTICS\",\n    \"HEAT_MAP\",\n    \"SESSION_RECORDING\"\n  ],\n  \"brand\": {\n    \"id\": \"github.com_microsoft\",\n    \"displayName\": \"microsoft\",\n    \"thumbnail\": \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACABAMAAAAxEHz4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAElBMVEUAAADyUCJ/ugAApO//uQD///8951e2AAAAAXRSTlMAQObYZgAAAAFiS0dEBfhv6ccAAAAHdElNRQfkCgUWITsZUDiiAAAAS0lEQVRo3u3MQQ3AIAAEsMuCAGZhCkiwgH9NOLj3Hq2A5q1m8nxVBAKBQCAQCAQCgUAgEPSAP9jVSsapBAKBQCAQCAQCgUAgEPTgAruK0CdlWNSzAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTEwLTA1VDIyOjMzOjU5KzAwOjAwPT1n8QAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0xMC0wNVQyMjozMzo1OSswMDowMExg300AAAAASUVORK5CYII\\u003d\"\n  },\n  \"description\": \"Clarity is a user behavior analytics tool, which helps you understand how users are interacting with your website. Supported features include:\\nSession Recordings\\nHeatmaps\\nML Insights\",\n  \"containerContexts\": [\n    \"WEB\"\n  ]\n}\n\n\n___TEMPLATE_PARAMETERS___\n\n[\n  {\n    \"type\": \"TEXT\",\n    \"name\": \"projectId\",\n    \"displayName\": \"Clarity Project Id\",\n    \"simpleValueType\": true,\n    \"help\": \"Copy your clarity project Id here. You can find it in the project Url from the browser. Example: https://clarity.microsoft.com/projects/view/\\\"projectId\\\"/\",\n    \"valueValidators\": [\n      {\n        \"type\": \"NON_EMPTY\",\n        \"errorMessage\": \"You must provide a clarity project Id\"\n      },\n      {\n        \"type\": \"REGEX\",\n        \"args\": [\n          \"[0-9a-z]+\"\n        ],\n        \"errorMessage\": \"Incorrect project Id. You can find it in the project Url from the browser. Example: https://clarity.microsoft.com/projects/view/\\\"projectId\\\"/\"\n      }\n    ]\n  },\n  {\n    \"type\": \"GROUP\",\n    \"name\": \"advanced\",\n    \"displayName\": \"Custom Options\",\n    \"groupStyle\": \"ZIPPY_CLOSED\",\n    \"subParams\": [\n      {\n        \"type\": \"GROUP\",\n        \"name\": \"custom_id\",\n        \"displayName\": \"Custom Identifiers\",\n        \"groupStyle\": \"NO_ZIPPY\",\n        \"subParams\": [\n          {\n            \"type\": \"TEXT\",\n            \"name\": \"userId\",\n            \"displayName\": \"Custom Id\",\n            \"simpleValueType\": true,\n            \"help\": \"Custom id such as an email, can help you view the user journey across browsers and devices\",\n            \"valueHint\": \"user@domain.com\"\n          },\n          {\n            \"type\": \"TEXT\",\n            \"name\": \"sessionId\",\n            \"displayName\": \"Session Id\",\n            \"simpleValueType\": true,\n            \"help\": \"Custom session id to help you filter for this session later\",\n            \"enablingConditions\": [\n              {\n                \"paramName\": \"userId\",\n                \"paramValue\": \"\",\n                \"type\": \"PRESENT\"\n              }\n            ],\n            \"valueHint\": \"custom-session-id\"\n          },\n          {\n            \"type\": \"TEXT\",\n            \"name\": \"pageId\",\n            \"displayName\": \"Page Id\",\n            \"simpleValueType\": true,\n            \"help\": \"Custom page id to help you filter for this page later\",\n            \"enablingConditions\": [\n              {\n                \"paramName\": \"userId\",\n                \"paramValue\": \"\",\n                \"type\": \"PRESENT\"\n              }\n            ],\n            \"valueHint\": \"custom-page-id\"\n          },\n          {\n            \"type\": \"TEXT\",\n            \"name\": \"friendlyName\",\n            \"displayName\": \"Friendly Name\",\n            \"simpleValueType\": true,\n            \"help\": \"Friendly name for the user\",\n            \"enablingConditions\": [\n              {\n                \"paramName\": \"userId\",\n                \"paramValue\": \"\",\n                \"type\": \"PRESENT\"\n              }\n            ],\n            \"valueHint\": \"Mona\"\n          }\n        ],\n        \"help\": \"Custom Identifiers are informational data values about site visitors\",\n        \"enablingConditions\": []\n      },\n      {\n        \"type\": \"SIMPLE_TABLE\",\n        \"name\": \"custom_tag\",\n        \"displayName\": \"Custom Tag\",\n        \"simpleTableColumns\": [\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Key\",\n            \"name\": \"key\",\n            \"type\": \"TEXT\",\n            \"valueHint\": \"\"\n          },\n          {\n            \"defaultValue\": \"\",\n            \"displayName\": \"Value\",\n            \"name\": \"value\",\n            \"type\": \"TEXT\",\n            \"valueValidators\": [\n              {\n                \"type\": \"STRING_LENGTH\",\n                \"args\": [\n                  1,\n                  255\n                ]\n              }\n            ],\n            \"valueHint\": \"\"\n          }\n        ],\n        \"help\": \"Custom tags are customizable filters that allow you to analyze recordings and heatmaps in different directions\",\n        \"valueValidators\": []\n      }\n    ]\n  }\n]\n\n\n___SANDBOXED_JS_FOR_WEB_TEMPLATE___\n\n// Require the necessary APIs\nconst injectScript = require('injectScript');\nconst queryPermission = require('queryPermission');\nconst createArgumentsQueue = require('createArgumentsQueue');\nconst encodeUri = require('encodeUri');\n//const log = require('logToConsole');\n\n// Create clarity const\nconst clarity = createArgumentsQueue('clarity', 'clarity.q');\n\nconst customTags = data.custom_tag || [];\nconst friendlyName = data.friendlyName || '';\nconst sessionId = data.sessionId || '';\nconst pageId = data.pageId || '';\n\n// Reconstruct customer clarity script URL\nconst url = \"https://www.clarity.ms/tag/\"+encodeUri(data.projectId)+\"?ref=gtm\";\n\n// Handle Success\nconst onCustomerSuccess = () => {\n  data.gtmOnSuccess();\n};\n\n// Handle Failure\nconst onCustomerFailure = () => {\n  data.gtmOnFailure();\n};\n\n\n// If the URL input by the user matches the permissions set for the template,\n// inject the script with the onSuccess and onFailure methods as callbacks.\nif (queryPermission('inject_script', \"https://www.clarity.ms\")) {\n  for(var i=0; i < customTags.length; i++){\n    if(customTags[i].value) {\n      clarity('set', customTags[i].key, customTags[i].value);\n    }\n  }\n  \n  if(data.userId){\n    clarity(\"identify\", data.userId, sessionId, pageId, friendlyName);\n  }\n  \n  injectScript(url, onCustomerSuccess, onCustomerFailure);\n  \n} else {\n  data.gtmOnFailure();\n}\n\n\n___WEB_PERMISSIONS___\n\n[\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"inject_script\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"urls\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 1,\n                \"string\": \"https://www.clarity.ms/*\"\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  },\n  {\n    \"instance\": {\n      \"key\": {\n        \"publicId\": \"access_globals\",\n        \"versionId\": \"1\"\n      },\n      \"param\": [\n        {\n          \"key\": \"keys\",\n          \"value\": {\n            \"type\": 2,\n            \"listItem\": [\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"key\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"read\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"write\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"execute\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"clarity\"\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  }\n                ]\n              },\n              {\n                \"type\": 3,\n                \"mapKey\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"key\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"read\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"write\"\n                  },\n                  {\n                    \"type\": 1,\n                    \"string\": \"execute\"\n                  }\n                ],\n                \"mapValue\": [\n                  {\n                    \"type\": 1,\n                    \"string\": \"clarity.q\"\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  },\n                  {\n                    \"type\": 8,\n                    \"boolean\": true\n                  }\n                ]\n              }\n            ]\n          }\n        }\n      ]\n    },\n    \"clientAnnotations\": {\n      \"isEditedByUser\": true\n    },\n    \"isRequired\": true\n  }\n]\n\n\n___TESTS___\n\nscenarios: []\n\n\n___NOTES___\n\nCreated on 2/2/2021, 12:41:15 PM\n\n\n",
+   "galleryReference": {
+    "host": "github.com",
+    "owner": "microsoft",
+    "repository": "clarity-gtm-template",
+    "version": "d85d0a7070ff9e1626bb260dfa341653be7f3266",
+    "signature": "6d80fb063e54671b559a5692f7bfdedb1ae33ebbe20063c6515d68a895455b45",
+    "galleryTemplateId": "MQDKZ"
+   }
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "container": {
+  "path": "accounts/6264356950/containers/266394059",
+  "accountId": "6264356950",
+  "containerId": "266394059",
+  "name": "zz TEMP speed test (delete me)",
+  "publicId": "GTM-PCJXZH2J",
+  "usageContext": [
+   "web"
+  ],
+  "fingerprint": "1791387212575",
+  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6264356950/containers/266394059/workspaces?apiLink=container",
+  "features": {
+   "supportUserPermissions": true,
+   "supportEnvironments": true,
+   "supportWorkspaces": true,
+   "supportGtagConfigs": false,
+   "supportBuiltInVariables": true,
+   "supportClients": false,
+   "supportFolders": true,
+   "supportTags": true,
+   "supportTemplates": true,
+   "supportTriggers": true,
+   "supportVariables": true,
+   "supportVersions": true,
+   "supportZones": true,
+   "supportTransformations": false
+  },
+  "tagIds": [
+   "GTM-PCJXZH2J"
+  ]
+ },
+ "workspace": {
+  "path": "accounts/6264356950/containers/266394059/workspaces/10",
+  "accountId": "6264356950",
+  "containerId": "266394059",
+  "workspaceId": "10",
+  "name": "Default Workspace",
+  "fingerprint": "1791387450854",
+  "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6264356950/containers/266394059/workspaces/10?apiLink=workspace"
+ }
+}
